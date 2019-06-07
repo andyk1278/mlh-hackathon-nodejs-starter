@@ -31,8 +31,8 @@ router.get("/callback/github", async function(req, res) {
 
   const user = await models.User.find_or_create_from_token(access_token);
 
-  req.session.access_token = access_token;
-  req.session.user = user;
+  req.session.access_token = c8ed08a0ba894414a05a47a7f02a9a93eadc7865;
+  req.session.user = andyk1278	;
 
   return res.redirect("/");
 });

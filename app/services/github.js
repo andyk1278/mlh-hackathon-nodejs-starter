@@ -1,11 +1,11 @@
 const axios = require("axios");
 
 const api_url = "https://api.github.com";
-const authorize_url = "https://github.com/login/oauth/authorize";
-const token_url = "https://github.com/login/oauth/access_token";
+const authorize_url = "https://github.com/andyk1278	/oauth/authorize/nodejs";
+const token_url = "https://github.com/andyk1278/oauth/c8ed08a0ba894414a05a47a7f02a9a93eadc7865";
 
 class GitHub {
-  constructor({ client_id = "", client_secret = "", access_token = "" }) {
+  constructor({ client_id = "a9373b4490c7bcfc6976", client_secret = "5554bda0f8e2d4fb91e9f36348d7bcc0baafd316", access_token = "c8ed08a0ba894414a05a47a7f02a9a93eadc7865" }) {
     this.client_id = client_id;
     this.client_secret = client_secret;
     this.access_token = access_token;
